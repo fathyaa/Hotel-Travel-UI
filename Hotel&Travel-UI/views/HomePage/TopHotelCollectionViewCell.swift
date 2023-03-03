@@ -29,5 +29,6 @@ class TopHotelCollectionViewCell: UICollectionViewCell {
         topHotelName.text = hotel.name
         topHotelPrice.text = "$\(hotel.price)"
         topHotelRating.text = "⭐ \(hotel.rating)"
+        topHotelImage.image = UIImage(named: hotel.image)
     }
 }
