@@ -30,5 +30,6 @@ class HotelNearbyTableViewCell: UITableViewCell {
         hotelLabel.text = hotel.name
         hotelLocationLabel.text = hotel.address
         hotelImage.image = UIImage(named: hotel.image)
+        priceHotelLabel.text = "$\(hotel.price)"
     }
 }
